@@ -14,7 +14,6 @@
 		9D3CDC2F2A1DA160002006D6 /* FruitsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CDC2E2A1DA160002006D6 /* FruitsData.swift */; };
 		9D3CDC312A1DA222002006D6 /* FruitEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CDC302A1DA222002006D6 /* FruitEditor.swift */; };
 		9D3CDC332A1DAAE5002006D6 /* FruitRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CDC322A1DAAE5002006D6 /* FruitRow.swift */; };
-		9D3CDC372A1DC251002006D6 /* FruitsStructView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CDC362A1DC251002006D6 /* FruitsStructView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +25,6 @@
 		9D3CDC2E2A1DA160002006D6 /* FruitsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsData.swift; sourceTree = "<group>"; };
 		9D3CDC302A1DA222002006D6 /* FruitEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitEditor.swift; sourceTree = "<group>"; };
 		9D3CDC322A1DAAE5002006D6 /* FruitRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRow.swift; sourceTree = "<group>"; };
-		9D3CDC362A1DC251002006D6 /* FruitsStructView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsStructView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				9D3CDC322A1DAAE5002006D6 /* FruitRow.swift */,
 				9D3CDC302A1DA222002006D6 /* FruitEditor.swift */,
 				9D3CDC2E2A1DA160002006D6 /* FruitsData.swift */,
-				9D3CDC362A1DC251002006D6 /* FruitsStructView.swift */,
 				9D3CDC232A1DA0FA002006D6 /* Assets.xcassets */,
 				9D3CDC252A1DA0FA002006D6 /* Preview Content */,
 			);
@@ -174,7 +171,6 @@
 				9D3CDC312A1DA222002006D6 /* FruitEditor.swift in Sources */,
 				9D3CDC202A1DA0F7002006D6 /* EmmaKadai15App.swift in Sources */,
 				9D3CDC332A1DAAE5002006D6 /* FruitRow.swift in Sources */,
-				9D3CDC372A1DC251002006D6 /* FruitsStructView.swift in Sources */,
 				9D3CDC2F2A1DA160002006D6 /* FruitsData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
