@@ -24,7 +24,7 @@ class Fruits: ObservableObject {
     func addNewFruitIfPossible(_ fruitName: String) -> Bool {
         // 文字列の両端から空白を削除
         let trimediFruitName = fruitName.trimmingCharacters(in: .whitespaces)
-        // 文字列が空ではない時だけフルールを追加し、Bool値を返す
+        // 文字列が空ではない時だけフルーツを追加し、Bool値を返す
         if !trimediFruitName.isEmpty {
             fruitsData.append(Fruit(name: trimediFruitName))
             return true
