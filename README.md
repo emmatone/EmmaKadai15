@@ -7,7 +7,7 @@
 <li>フルーツ名をタップするとチェックマークが切り替わる機能を追加（課題15）</li>
 </ul>
 <img src= "Kadai15.gif" width="300" alt="Preview image" />
-## Memo
+<h2>Memo</h2>
 <ul>
 <li>SwiftUI</li>
 <li>List</li>
