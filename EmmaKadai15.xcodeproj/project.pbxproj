@@ -25,6 +25,7 @@
 		9D3CDC2E2A1DA160002006D6 /* FruitsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsData.swift; sourceTree = "<group>"; };
 		9D3CDC302A1DA222002006D6 /* FruitEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitEditor.swift; sourceTree = "<group>"; };
 		9D3CDC322A1DAAE5002006D6 /* FruitRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRow.swift; sourceTree = "<group>"; };
+		9D60F09C2A25AEEB00A14067 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		9D3CDC132A1DA0F7002006D6 = {
 			isa = PBXGroup;
 			children = (
+				9D60F09C2A25AEEB00A14067 /* README.md */,
 				9D3CDC1E2A1DA0F7002006D6 /* EmmaKadai15 */,
 				9D3CDC1D2A1DA0F7002006D6 /* Products */,
 			);
