@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FruitRow: View {
-    var fruit: Fruit
+    let fruit: Fruit
 
     private let checkMark: some View = Image(systemName: "checkmark").foregroundColor(.orange)
     
