@@ -34,8 +34,9 @@ class Fruits: ObservableObject {
     }
 
     func toggleIsCheckedIfPossible(_ fruit: Fruit) -> Bool {
-        // いまタップされたのは何番目かを見つける。見つけられなかったら終了
-        guard let index = fruitsData.firstIndex(of: fruit) else {
+        // いまタップされたのは何番目かをfirstIndex(where:)で見つける。見つけられなかったら終了
+        // fb: idが一致するか調べる
+        guard let index = fruitsData.firstIndex(where: { fruit.id == $0.id }) else {
             return false
         }
         //チェックマークを反転させる
