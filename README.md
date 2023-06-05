@@ -17,7 +17,7 @@
 <li>@Environment</li>
 <li>gurad ket</li>
 <li>未入力や、空白スペースのときは追加されないようにした。.trimmingCharacters(in: .whitespaces)</li>
-<li>配列の要素を検索してインデックスを取得<del>.firstIndex(of:)</del>idで検索するためfirstIndex(where:)に変更。</li>
+<li>配列の要素を検索してインデックスを取得するため、<del>.firstIndex(of:)</del>からidで検索するためfirstIndex(where:)に変更。</li>
 
 <li>.contentShape, .onTapGesture</li>
 </ul>
