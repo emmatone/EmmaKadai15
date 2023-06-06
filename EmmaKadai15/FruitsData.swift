@@ -21,6 +21,7 @@ class Fruits: ObservableObject {
         Fruit(name: "パイナップル", isChecked: true)
     ]
 
+    /// この関数は新たにフルーツを追加し、成功したらtrueを返します
     func addNewFruitIfPossible(_ fruitName: String) -> Bool {
         // 文字列の両端から空白を削除
         let trimmedFruitName = fruitName.trimmingCharacters(in: .whitespaces)
@@ -32,7 +33,7 @@ class Fruits: ObservableObject {
             return false
         }
     }
-
+    /// この関数はタップされたフルーツのチェックマークを反転させ、成功したらtrueを返します
     func toggleIsCheckedIfPossible(_ fruit: Fruit) -> Bool {
         // いまタップされたのは何番目かをfirstIndex(where:)で見つける。見つけられなかったら終了
         // fb: idが一致するか調べる
